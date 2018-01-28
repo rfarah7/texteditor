@@ -187,7 +187,7 @@ public class TextEditor extends JFrame {
 			area.read(r, null);
 			r.close();
 			currentFile = fileName;
-			setTitle(currentFile + " - Farahino's Text Editor");
+			setTitle(currentFile + " - Java Text Editor");
 			changed = false;
 			
 		}
